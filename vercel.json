@@ -6,12 +6,10 @@
       "use": "@vercel/node"
     }
   ],
-  [
-    {
       "routes": [
+      {
         "src": "/.*",
         "dest": "inde.js"
+      }
       ]
-    }
-  ]
 }
